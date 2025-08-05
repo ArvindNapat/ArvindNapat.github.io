@@ -7,25 +7,25 @@ body
 }
 
 .blank {
-	background: url('images/Game.png') no-repeat -0px -0px;
+	background: url('Images/Game.png') no-repeat -0px -0px;
 	width: 115px;
 	height: 115px;
 }
 
 .rocket {
-	background: url('images/Game.png') no-repeat -512px -520px;
+	background: url('Images/Game.png') no-repeat -512px -520px;
 	width: 115px;
 	height: 115px;
 }
 
 .coin {
-	background: url('images/Game.png') no-repeat -702px -523px;
+	background: url('Images/Game.png') no-repeat -702px -523px;
 	width: 115px;
 	height: 115px;
 }
 
 .ast {
-	background: url('images/Game.png') no-repeat -902px -528px;
+	background: url('Images/Game.png') no-repeat -902px -528px;
 	width: 115px;
 	height: 115px;
 }
@@ -199,3 +199,4 @@ p
 {
 	
 }
+
