@@ -6,9 +6,196 @@ body
 	background-color:black;
 }
 
+.blank {
+	background: url('images/Game.png') no-repeat -0px -0px;
+	width: 115px;
+	height: 115px;
+}
+
+.rocket {
+	background: url('images/Game.png') no-repeat -512px -520px;
+	width: 115px;
+	height: 115px;
+}
+
+.coin {
+	background: url('images/Game.png') no-repeat -702px -523px;
+	width: 115px;
+	height: 115px;
+}
+
+.ast {
+	background: url('images/Game.png') no-repeat -902px -528px;
+	width: 115px;
+	height: 115px;
+}
+
 .obj
 {
 	left: 0px;
 	height: 4vw;
 	position:fixed;
+}
+
+.belt
+{
+	height: 2vw;
+}
+
+#slider
+{
+	
+}
+
+.content
+{
+	position:fixed;
+	background-color: white;
+	width: 35vw;
+	height: 92vh;
+	border-radius: 5vh;
+	padding: 1vh;
+	opacity: 0.3;
+	text-align: center;
+	display:flex;
+}
+
+
+
+h1
+{
+	font-weight:bold;
+	font-family:monospace;
+	font-size:300%;
+}
+
+p
+{
+	font-weight:lighter;
+	font-family:monospace;
+	font-size:195%;
+}
+
+@media (max-width:600px)
+{
+	.content
+	{
+		width: 98vw;
+	}
+	
+	h1
+	{	
+		font-weight:bold;
+		font-family:monospace;
+		font-size:200%;
+	}
+
+	p
+	{
+		font-weight:lighter;
+		font-family:monospace;
+		font-size:120%;
+	}
+}
+
+.content:hover
+{
+	opacity: 0.85;
+}
+
+
+.name
+{
+	background-color:black;
+	color: white;
+	border-radius: 2vw;
+}
+
+.image
+{
+	background-color:black;
+	border-radius: 2vw;
+}
+
+.history
+{
+	background-color:#74dadb;
+	border-radius: 2vw;
+}
+
+.class
+{
+	background-color:#a8a0f2;
+	border-radius: 2vw;
+}
+
+.FunFacts
+{
+	background-color:#a8a0f2;
+	border-radius: 2vw;
+}
+
+#gamestart:hover
+{
+	background-color:#ffe173;
+}
+
+#1
+{
+	
+}
+
+#Fact1
+{
+	
+}
+
+#Fact2
+{
+	
+}
+
+#Fact3
+{
+	
+}
+
+#Fact4
+{
+	
+}
+
+#Fact5
+{
+	
+}
+
+#Fact6
+{
+	
+}
+
+#Fact7
+{
+	
+}
+
+#Fact8
+{
+	
+}
+
+#Fact9
+{
+	
+}
+
+#Fact10
+{
+	
+}
+
+#Fact11
+{
+	
 }
